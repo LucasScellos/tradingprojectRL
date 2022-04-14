@@ -38,7 +38,7 @@ def evaluation(df,model,frame_bound=(200,300),window_size=15):
         action, _states = model.predict(obs)
         obs, rewards, done, info = env.step(action)
         if done:
-            print("info", info)
+            #print("info", info)
             break
     return env, info
 def graphique(env):
