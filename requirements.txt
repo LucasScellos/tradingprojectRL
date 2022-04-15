@@ -1,0 +1,8 @@
+numpy>=1.22
+stable-baselines3
+tensorboard
+matplotlib
+gym>=0.21
+gym-anytrading>=1.2
+pandas
+scipy
