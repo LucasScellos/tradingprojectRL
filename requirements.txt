@@ -1,9 +1,9 @@
-numpy>=1.22
+numpy
 stable-baselines3
 tensorboard
 matplotlib
-gym>=0.21
-gym-anytrading>=1.2
+gym
+gym-anytrading
 pandas
 scipy
 yahoo-fin
