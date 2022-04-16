@@ -1,0 +1,9 @@
+numpy
+stable-baselines3
+tensorboard
+matplotlib
+gym
+gym-anytrading
+pandas
+scipy
+yahoo-fin
