@@ -1,9 +1,12 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LucasScellos/tradingprojectRL/HEAD)
+
 Ce projet a été réalisé pendant mon cours de MTI880 pendant ma maitrise à l'ETS en Technologie de l'Information. 
 
 Repris code de [Gym AnyTrading de AminHP](https://github.com/AminHP/gym-anytrading) en l'adaptant à notre cas, prédiction de stock. 
 
 Pour présenter notre projet, nous avons réaliser un module principale nommé *trading_gym.py* qui contient les fonctions nécessaires à la démonstration de notre projet. Nous avons ensuite crée plusiuers notebook permettant de démontrer plusieurs points de notre projet : performance, vitesse d'apprentissage, généralisation des modèles.
-
+ 
+Visualisation disponible sur [Binder](https://mybinder.org/v2/gh/LucasScellos/tradingprojectRL/HEAD)
 
 # Commande 
 Afin d'adopter une démarche modulaire, nous avons regroupé nos fonctions, on peux les utiliser comme suit : 
