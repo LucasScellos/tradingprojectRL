@@ -41,9 +41,10 @@ def evaluation(df,model,frame_bound=(200,300),window_size=15):
             #print("info", info)
             break
     return env, info
-def graphique(env):
-    plt.figure(figsize=(15,6))
-    plt.cla()
-    env.render_all()
-    plt.show()
+def graphique(env, title='A2C'):
+	plt.figure(figsize=(15,6))
+	plt.cla()
+	env.render_all()
+	plt.suptitle(title)
+	plt.show()
 
